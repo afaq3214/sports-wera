@@ -1,0 +1,134 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('/font/segoe-ui.ttf') format('truetype'); /* Adjust path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Lato', !important;
+  background-color: white;
+}
+.customscrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.Section5{
+  background-image: url('./assets/Homepage/Section5/Rectangle\ 29.png');
+
+ background-repeat: no-repeat;
+  background-size: 100%  100%;
+  object-fit: contain;
+  background-position:right top;
+
+}
+.promotion-bg-image {
+  background-image: url('./assets/promotion.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Section1{
+  background-image: url('./assets/Homepage/Section5/Hero.png');
+ background-repeat: no-repeat;
+  background-size: 100%  100%;
+  object-fit: contain;
+  background-position:right top;
+
+}
+words-container {
+  position: relative;
+  overflow: hidden;
+}
+.words {
+  position: absolute;
+  animation: move-words 20s linear infinite;
+  margin: 0;
+  writing-mode: vertical-lr;
+}
+@keyframes move-words {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+@media (max-width: 100px) {
+  .Section1 {
+    background-size: 100% ;
+    height: auto;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  
+}
+.Section3{
+  background-image: url(./assets/Homepage/promotional\ banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+  object-fit: cover;
+  background-position:right top;
+}
+
+  .svg-icon {
+    transition: all 0.3s ease;
+  }
+
+  .svg-icon:hover rect:first-of-type {
+    fill: red;
+  }
+
+  .svg-icon:hover path {
+    fill: white;
+    stroke: white;
+  }
+  .dropwdownlink{
+    color:#4C4C4C
+  }
+.dropwdownlink:hover{
+  color: #D71C24;
+}
+.cart-icon {
+  transition: all 0.3s ease;
+}
+
+.cart-icon:hover rect {
+  fill: white; /* Corrected color code */
+}
+
+.cart-icon:hover path {
+  fill: #D71C24;
+  stroke: #D71C24; /* Corrected color code */
+}
+.ShopSection1{
+
+  background-image: url(./assets/Shop/hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+  object-fit: cover;
+  background-position:right top;
+}
+
+.heart-icon {
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.heart-wrapper:hover .heart-icon path {
+  stroke: red; /* Red border on hover */
+  fill: white;  /* White fill on hover */
+}
+
+.delete-icon {
+  transition: stroke 0.3s ease, fill 0.3s ease; /* Smooth transition for color changes */
+}
+
+.delete-icon:hover path {
+  stroke: red; /* Change the border (stroke) color to red on hover */
+}

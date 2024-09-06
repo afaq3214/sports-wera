@@ -1,0 +1,49 @@
+export const Brands = [{
+    id: 1,
+    name: "Allen1",
+    active: true
+}, {
+    id: 2,
+    name: "Allen2",
+    active: true
+}, {
+    id: 3,
+    name: "Allen3",
+    active: true
+}, {
+    id: 4,
+    name: "Allen4",
+    active: false,
+}, {
+    id: 5,
+    name: "Allen5",
+    active: false,
+}, {
+    id: 6,
+    name: "Allen6",
+    active: false
+}, {
+    id: 7,
+    name: "Allen7",
+    active: false
+}, {
+    id: 8,
+    name: "Allen8",
+    active: false
+}, {
+    id: 9,
+    name: "Allen9",
+    active: false
+}, {
+    id: 10,
+    name: "Allen10",
+    active: false
+}, {
+    id: 11,
+    name: "Allen11",
+    active: false
+}, {
+    id: 12,
+    name: "Allen12",
+    active: false
+}]

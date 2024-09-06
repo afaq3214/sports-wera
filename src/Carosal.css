@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.carousel-root{
+    width:90%;
+    font-family: 'Lato','Segoe UI' !important;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+    min-width: 50% !important;
+}
+.ProductDetailCarosal  .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    min-width: 100% !important;
+}
+.ProductDetailCarosal  .carousel .control-dots .dot {
+    box-shadow: none;
+    background-color: transparent;
+    border:1px solid #D71C24
+}
+.ProductDetailCarosal  .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    background-color: #D71C24;
+}
+@media only screen and (max-width: 600px) {
+    .carousel .slider-wrapper.axis-horizontal .slider .slide {
+        min-width: 100% !important;
+    }
+    .Section2Carosal .carousel .slider-wrapper.axis-horizontal .slider .slide {
+        min-width: 100% !important;
+    }
+
+  }
+  .Section2Carosal .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    min-width: 25% !important;
+}
+@media only screen and (max-width: 900px) {
+    
+    .Section2Carosal .carousel .slider-wrapper.axis-horizontal .slider .slide {
+        min-width: 100% !important;
+    }
+    .Section2Carasol .carousel .slide > div {
+        width: 100%; /* Center item takes full width on mobile */
+      }
+  }
